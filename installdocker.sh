@@ -43,4 +43,4 @@ source ~/.bashrc
 # pull latest SQL Server on Linux image from Docker Hub
 #
 
-docker pull microsoft/mssql-server-linux:latest
+sudo docker pull microsoft/mssql-server-linux:latest
