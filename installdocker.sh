@@ -37,6 +37,8 @@ sudo apt-get install -y mssql-tools unixodbc-dev
 
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 
+exec bash
+
 #
 # pull latest SQL Server on Linux image from Docker Hub
 #
