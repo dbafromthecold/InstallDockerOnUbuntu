@@ -41,4 +41,8 @@ echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 
 source ~/.bashrc
 
-docker pull microsoft/mssql-server-linux
+#
+# pull latest SQL Server on Linux image from Docker Hub
+#
+
+docker pull microsoft/mssql-server-linux:latest
