@@ -1,4 +1,8 @@
+#
 # install docker community edition
+# code from https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-using-the-repository1
+#
+
 sudo apt-get update -y
 
 sudo apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual
@@ -18,8 +22,11 @@ sudo apt-get update -y
 
 sudo apt-get install -y docker-ce
 
-
+#
 # install sql command line tools
+# code from https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup-tools#ubuntu
+#
+
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 
 curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list
