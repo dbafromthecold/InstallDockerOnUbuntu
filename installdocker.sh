@@ -33,7 +33,7 @@ curl https://packages.microsoft.com/config/ubuntu/16.04/prod.list | sudo tee /et
 
 sudo apt-get update -y
 
-sudo apt-get install -y mssql-tools unixodbc-dev
+sudo apt-get install mssql-tools unixodbc-dev
 
 echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 
